@@ -1,0 +1,8 @@
+
+echo "Enter a number"
+read number
+echo "The Prime factor(s) of $number is/are : "
+echo "---------------------------" 
+echo $number|factor
+
+
