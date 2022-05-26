@@ -1,0 +1,8 @@
+
+# Take in line of text as an input
+
+while read x
+do
+a="${a}$x "$'\n'
+done
+echo "$a" | head -n 20
